@@ -16,6 +16,8 @@ The device built within this project deliver at least some form of photon flux m
 ## Bill of Material
 Material used for the project is found in the [List here](bom/BOM.md)
 
+## External documentation
+[List here](docs)
 ## Project details
 
 ## Computer setup
