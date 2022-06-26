@@ -23,6 +23,7 @@ Material used for the project is found in the [List here](bom/BOM.md)
 ## Computer setup
 
 ## Platforms used
+The metrics from the sensor setup is sent to Mosquitto MQTT Broker via WiFi once per minute. The use of WiFi and a private WiFi network is chosen because of the simplicity of moving the sensor metrics to a local InfluxDB database. The WiFi network the sensor connects to is separated from the residential WiFi with a firewall and only the MQTT protocol is allowed to pass through. If another connection type like LoRaWAN or a cellular network where to be used, an off-site storage like AWS or other cloud solution would be needed and a polling mechanism to retrieve the metrics has to be used to handle the security constrains.
 
 ## Presenting the data
 
