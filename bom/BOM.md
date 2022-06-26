@@ -5,7 +5,7 @@ Bill of materials for the course in Applied IoT ([Tillämpad IoT Introduktion, 1
 ## Hardware
 | Thing |  | Manufacturer | Supplier info |
 | --- | --- | --- | --- |
-| ![Image](assets/fipyTop.png) | FiPy IoT Dev Board | Pycom Ltd. | Digi-Key #1871-1011-ND |
+| ![Image](assets/fipyTop.png | width=100 ) | FiPy IoT Dev Board | Pycom Ltd. | Digi-Key #1871-1011-ND |
 | ![Image](assets/pysense_2_0.png) | Pysense 2.0 Epansion Shield | Pycom Ltd. | Digi-Key #1871-1013-ND |
 | ![Image](assets/MFG_1980.jpg) | TSL2591 Light Sensor | Adafruit Industries LLC #1980 | Digi-Key #1528-1037-ND |
 | ![Image](assets/MFG_938.jpg) | Monochrome 1.3" 128x64 OLED graphic display - STEMMA QT/Qwiic | Adafruit Industries LLC #938 | Digi-Key #1528-1512-ND |
