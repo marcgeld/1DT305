@@ -11,7 +11,7 @@ Bill of materials for the course in Applied IoT ([Tillämpad IoT Introduktion, 1
 | <img src="assets/MFG_938.jpg" width="125" /> | Monochrome 1.3" 128x64 OLED graphic display - STEMMA QT/Qwiic | Adafruit Industries LLC #938 | [Digi-Key #1528-1512-ND](https://www.digikey.se/sv/products/detail/adafruit-industries-llc/938/5774238?s=N4IgTCBcDaIIwFYwA4C0i5lQOQCIgF0BfIA) | 252.11 SEK |
 | <img src="assets/KIT-15081.jpg" width="125" /> | SparkFun Qwiic Cable Kit | SparkFun Electronics KIT-15081 | [Digi-Key #1568-1961-ND](https://www.digikey.se/sv/products/detail/sparkfun-electronics/KIT-15081/9770723?s=N4IgTCBcDaIIwFYBsAOAtHAnEuaByAIiALoC%2BQA)| 113.10 SEK |
 | <img src="assets/lipo_bat.jpg" width="125" /> | Batteri LiPo 3.7V 4400mAh, with JST-connection |  | [Electro:kit](https://www.electrokit.com/produkt/batteri-lipo-3-7v-4400mah/)| 249.00 SEK |
-| <img src="assets/idc_female_6.jpg" width="125" /> | IDC female, 6-pol |  | [Electro:kit](https://www.electrokit.com/produkt/idc-hona-kabel-6-pol-2-54mm/)| 7.90 SEK |
+|  | Amphenol 20021511-00006T4LF female, 6-pol |  | [Digi-Key #20021511-00006T4LF-ND](https://www.digikey.se/sv/products/detail/amphenol-cs-fci/20021511-00006T4LF/4244981?s=N4IgTCBcDaIIIFsAOALApgOwPYBsAEAYgMICSeYADBWAIwCsNNAtFVQGwAqALADIEgBdAL5A)| 14.56 SEK |
 | <img src="assets/pycom_pycase_clear.png" width="125" /> | Pycase Clear (To small to fit FiPy + Pysense 2.0! ...buy something else!) |  | [M.nu](https://www.m.nu/pycom/pycase-clear)| 89.00 SEK |
 
 
