@@ -41,12 +41,18 @@ copies of InfluxDB and Telegraf on my Docker engine.
 To verify the MQTT connection setup, you can use the supplied Python script in the [utility](utility/) folder.
 If you are successfully connected to MQTT you will get something like this in the MQTT log:
 
-```
+```text
 2022-06-27T23:44:03: Sending CONNACK to python-mqtt-399 (0, 0)
 2022-06-27T23:44:03: Received PUBLISH from python-mqtt-399 (d0, q0, r0, m0, 'python_mqtt', ... (23 bytes))
 2022-06-27T23:44:03: Client python-mqtt-399 closed its connection.
 ```
 
+And something like this as output from the Python program
+
+```text
+Connected OK Returned code= 0
+Send `messages to python_mqtt` to topic `python_mqtt`
+```
 
 ## Computer setup
 
