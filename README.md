@@ -1,5 +1,6 @@
 # 1DT305 - Introduction to Applied IoT
 
+Marcus Gelderman – mg22nb 
 (Course https://lnu-ftk.instructure.com/courses/233)
 
 
