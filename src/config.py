@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+# Wifi
+WIFI_SSID='<SSID>'
+WIFI_PASS="<PASSWORD>"
+
+# thing id
+THING_ID='FiPyThingy'
+
+# mqtt
+MQTT_BROKER='<MQTT_BROKER_IP>'
+MQTT_PORT=1883
+MQTT_TOPIC='pycom'
+MQTT_KEEPALIVE=10000
+MQTT_USER=''
+MQTT_PASS=''
+
+# data
+SLEEP_TIME=120

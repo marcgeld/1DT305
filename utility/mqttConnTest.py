@@ -5,22 +5,11 @@
 
 import random
 import paho.mqtt.client as mqtt
-import configparser
 import time
 import os
 import sys
 
-
-cfgFile = os.path.join(os.path.dirname(sys.argv[0]), 'mqtt_conn_test.ini')
-config = configparser.ConfigParser()
-config.read(cfgFile)
-
-
-broker = config['mqtt']['broker']
-port = int(config['mqtt']['port'])
-username = config['mqtt']['username']
-password = config['mqtt']['password']
-topic = config['mqtt']['topic']
+import config
 
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
 
@@ -35,9 +24,9 @@ def on_connect(client, userdata, flags, rc):
 
 # Set Connecting Client ID
 client = mqtt.Client(client_id=client_id, clean_session=True, userdata=None, protocol=mqtt.MQTTv311, transport="tcp")
-client.username_pw_set(username, password)
+client.username_pw_set(config.USER, config.PASS)
 client.on_connect = on_connect
-client.connect(broker, port)
+client.connect(config.BROKER, config.PORT)
 
 # create a run loop to get the async callback
 client.loop_start()
@@ -45,6 +34,7 @@ client.loop_start()
 # Wait for connection setup to complete
 time.sleep(2)
 
+topic = config.TOPIC
 msg = f"messages to {topic}"
 result = client.publish(topic, msg)
 status = result[0]
